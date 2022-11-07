@@ -6,6 +6,7 @@ public class RayCam : MonoBehaviour
 {
     private Transform camara;
     public float distance;
+    private bool key=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,18 @@ public class RayCam : MonoBehaviour
             {
                 Debug.Log(hit.transform.name);
                 hit.transform.GetComponent<Interactable>().Interact();
+            }
+            if (Physics.Raycast(camara.position, camara.forward, out hit, distance, LayerMask.GetMask("Door"))&&key)
+            {
+                Debug.Log(hit.transform.name);
+                hit.transform.GetComponent<Interactable>().Interact();
+                key = false;
+            }
+            if (Physics.Raycast(camara.position, camara.forward, out hit, distance, LayerMask.GetMask("Key")))
+            {
+                Debug.Log(hit.transform.name);
+                hit.transform.GetComponent<Interactable>().Interact();
+                key = true;
             }
         }
 
