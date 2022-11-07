@@ -56,11 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Footstep.cs" />
     <Compile Include="Assets\Scriptslvl1\Interactable.cs" />
     <Compile Include="Assets\Scriptslvl1\RayJump.cs" />
     <Compile Include="Assets\Scripts\WallSpikeBehaviour.cs" />
     <Compile Include="Assets\Scripts\Spikes.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\WallSpikes.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Compile Include="Assets\Scriptslvl1\lever.cs" />
     <Compile Include="Assets\Scriptslvl1\Door.cs" />
@@ -69,9 +72,7 @@
     <Compile Include="Assets\Scriptslvl1\RayCam.cs" />
     <Compile Include="Assets\Scriptslvl1\raycastLuces.cs" />
     <Compile Include="Assets\Scriptslvl1\Camera.cs" />
-    <Compile Include="Assets\Scripts\Footstep.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
