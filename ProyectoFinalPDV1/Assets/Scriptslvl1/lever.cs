@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lever : Interactable
+public class Lever : Interactable
 {
     private Animator animaitor;
     private bool active=false;

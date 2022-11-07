@@ -244,9 +244,9 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 6
-  m_Range: 16
+  m_Range: 20
   m_SpotAngle: 30
-  m_InnerSpotAngle: 3
+  m_InnerSpotAngle: 2
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
