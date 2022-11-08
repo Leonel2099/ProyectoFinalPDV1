@@ -152,6 +152,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 53fb8c0c36bd88f42b5945db737466d9, type: 2}
+    - target: {fileID: 5397600141822457417, guid: d07f2bae79b4c3743bafc460d6a95819, type: 3}
+      propertyPath: m_Name
+      value: esaracter_skeleton_mage_eyes
+      objectReference: {fileID: 0}
     - target: {fileID: 8634767747607330987, guid: d07f2bae79b4c3743bafc460d6a95819, type: 3}
       propertyPath: m_DirtyAABB
       value: 0

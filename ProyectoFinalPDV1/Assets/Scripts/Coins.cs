@@ -15,7 +15,7 @@ public class Coins : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player") // si player pasa por la moneda
+        if (other.CompareTag("Player")) // si player pasa por la moneda
         {
             coinPoint.GetComponent<ScoreCoins>().score += receives;
             Destroy(gameObject);
