@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\WallSpikes.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scriptslvl1\lever.cs" />
     <Compile Include="Assets\Scriptslvl1\Door.cs" />
     <Compile Include="Assets\Scriptslvl1\RayLight.cs" />
@@ -72,7 +73,10 @@
     <Compile Include="Assets\Scriptslvl1\RayCam.cs" />
     <Compile Include="Assets\Scriptslvl1\raycastLuces.cs" />
     <Compile Include="Assets\Scriptslvl1\Camera.cs" />
-    <Compile Include="Assets\Scripts\EnemyMove.cs" />
+    <Compile Include="Assets\Scripts\PlataformMove.cs" />
+    <Compile Include="Assets\Scripts\EnemyNavMesh.cs" />
+    <Compile Include="Assets\Scripts\Coins.cs" />
+    <Compile Include="Assets\Scripts\ScoreCoins.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

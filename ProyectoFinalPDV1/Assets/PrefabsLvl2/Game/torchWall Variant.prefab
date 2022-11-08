@@ -5045,7 +5045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 34c493f6f9903384f9b9b165e319de34, type: 3}
       propertyPath: m_Name
-      value: torchWall
+      value: torchWall Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34c493f6f9903384f9b9b165e319de34, type: 3}
