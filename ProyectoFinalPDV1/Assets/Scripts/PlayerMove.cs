@@ -52,5 +52,10 @@ public class PlayerMove : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+        if (other.gameObject.tag == "Lava")
+        {
+            SceneManager.LoadScene("GameOver");
+            Destroy(gameObject);
+        }
     }
 }

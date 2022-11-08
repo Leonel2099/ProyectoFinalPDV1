@@ -24,11 +24,6 @@ public class Life : MonoBehaviour
         acivar = GetComponentInChildren<Canvas>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("Sword"))
@@ -75,8 +70,7 @@ public class Life : MonoBehaviour
             {
                 SceneManager.LoadScene("GameOver");
                 GameObject.Destroy(vida1);
-                //CambioEscena(indiceFin);
-                Debug.Log("SOS UN MUERTO");
+         
             }
         }
     }
