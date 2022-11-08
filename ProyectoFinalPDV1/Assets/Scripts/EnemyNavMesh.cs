@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyNavMesh : MonoBehaviour
 {
-    /*//--------------- Variables-----------------------//
+    //--------------- Variables-----------------------//
 
     public Transform[] destinations;
     public NavMeshAgent navMesh;
@@ -53,5 +53,5 @@ public class EnemyNavMesh : MonoBehaviour
     public void FollowPlayer()
     {
         navMesh.destination = player.transform.position;
-    }*/
+    }
 }

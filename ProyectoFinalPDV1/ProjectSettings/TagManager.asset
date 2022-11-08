@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Spike
   - PassLevel
+  - Lava
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Player
   - Key
   - Door
-  - 
+  - Platform
   - 
   - 
   - 
