@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMove : MonoBehaviour
@@ -44,7 +45,12 @@ public class PlayerMove : MonoBehaviour
     {
         if (other.gameObject.tag == "Spike")
         {
+            SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
+        }
+        if (other.gameObject.tag == "PassLevel")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

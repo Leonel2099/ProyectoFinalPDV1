@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Life : MonoBehaviour
 {
@@ -72,6 +73,7 @@ public class Life : MonoBehaviour
             }
             if (vida == 0)
             {
+                SceneManager.LoadScene("GameOver");
                 GameObject.Destroy(vida1);
                 //CambioEscena(indiceFin);
                 Debug.Log("SOS UN MUERTO");
