@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class Lever : Interactable
 {
+    [SerializeField]
+    private GameObject grid;
     private Animator animaitor;
-    private bool active=false;
-    // Start is called before the first frame update
+    private Animator animaitorGrid;
+    private bool active = false;
+    private bool lever = false;
     void Start()
     {
+        animaitorGrid = grid.GetComponent<Animator>();
         animaitor = GetComponent<Animator>();
-
     }
 
-    // Update is called once per frame
     void Update()
     {
+
         animaitor.SetBool("Active", active);
+        if (active)
+        {
+            lever = true;
+        }
+        animaitorGrid.SetBool("Open", lever);
     }
     public override void Interact()
     {

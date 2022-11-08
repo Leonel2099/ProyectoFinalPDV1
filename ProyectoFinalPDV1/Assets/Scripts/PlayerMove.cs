@@ -5,11 +5,10 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMove : MonoBehaviour
 {
-    public float speed = 3;
+    public float speed = 5;
     public float rotationSpeed = 90;
     public float gravity = -20f;
     public float jumpSpeed = 10;
-    public float jmp;
 
     CharacterController characterController;
     Vector3 moveVelocity;
@@ -40,5 +39,12 @@ public class PlayerMove : MonoBehaviour
         moveVelocity.y -= gravity * Time.deltaTime;
         characterController.Move(moveVelocity * Time.deltaTime);
         //transform.Rotate(turnVelocity * Time.deltaTime);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Spike")
+        {
+            Destroy(gameObject);
+        }
     }
 }

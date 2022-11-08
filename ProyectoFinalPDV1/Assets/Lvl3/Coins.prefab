@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 181d68cfddbd0d04eb4127d590fd2e31, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c42e8196cf4c6d4d82cba007f3847c8, type: 3}
       propertyPath: m_Name
-      value: coin
+      value: Coins
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c42e8196cf4c6d4d82cba007f3847c8, type: 3}
@@ -167,7 +167,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4182973343578298547}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
