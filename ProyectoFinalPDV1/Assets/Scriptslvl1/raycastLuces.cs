@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class raycastLuces : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class raycastLuces : MonoBehaviour
         {
             Debug.Log(hit.transform.name);
             Debug.DrawRay(ray.position, ray.forward * distance * 2, Color.red);
+            SceneManager.LoadScene("GameOver");
             GameObject.Destroy(player);
         }
         else
