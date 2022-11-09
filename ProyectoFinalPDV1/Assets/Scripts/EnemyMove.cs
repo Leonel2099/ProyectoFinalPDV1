@@ -34,7 +34,7 @@ public class EnemyMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "EnemyBall")
+        if (other.tag == "Bullet")
         {
             Destroy(gameObject);
         }

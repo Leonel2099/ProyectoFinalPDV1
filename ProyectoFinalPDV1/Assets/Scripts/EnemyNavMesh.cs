@@ -54,4 +54,15 @@ public class EnemyNavMesh : MonoBehaviour
     {
         navMesh.destination = player.transform.position;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Bullet")
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
+
 }

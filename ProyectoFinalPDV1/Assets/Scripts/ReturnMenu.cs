@@ -14,6 +14,6 @@ public class ReturnMenu : MonoBehaviour
 
     public void ReturnMenuScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene("MainMenu");
     }
 }

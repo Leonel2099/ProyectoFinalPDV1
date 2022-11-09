@@ -11,6 +11,9 @@ TagManager:
   - PassLevel
   - Lava
   - Rehen
+  - Bullet
+  - Arrow
+  - Boss
   layers:
   - Default
   - TransparentFX
