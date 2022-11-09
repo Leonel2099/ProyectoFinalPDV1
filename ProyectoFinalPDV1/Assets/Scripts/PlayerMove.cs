@@ -57,5 +57,11 @@ public class PlayerMove : MonoBehaviour
             SceneManager.LoadScene("GameOver");
             Destroy(gameObject);
         }
+        if (other.gameObject.tag == "Rehen")
+        {
+            SceneManager.LoadScene("YouWon");
+            
+        }
+
     }
 }
