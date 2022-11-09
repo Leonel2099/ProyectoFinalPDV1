@@ -76,7 +76,8 @@
     <Compile Include="Assets\Scripts\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\Coins.cs" />
-    <Compile Include="Assets\Scriptslvl1\lever.cs" />
+    <Compile Include="Assets\Scriptslvl1\Lever.cs" />
+    <Compile Include="Assets\Scripts\MoveWhitFloor.cs" />
     <Compile Include="Assets\Scriptslvl1\Door.cs" />
     <Compile Include="Assets\Scripts\PlataformMove.cs" />
     <Compile Include="Assets\Scriptslvl1\RayLight.cs" />
@@ -84,7 +85,7 @@
     <Compile Include="Assets\Scriptslvl1\RayCam.cs" />
     <Compile Include="Assets\Scriptslvl1\raycastLuces.cs" />
     <Compile Include="Assets\Scriptslvl1\Camera.cs" />
-    <Compile Include="Assets\Scripts\MoveWhitFloor.cs" />
+    <Compile Include="Assets\Scripts\VictoryPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

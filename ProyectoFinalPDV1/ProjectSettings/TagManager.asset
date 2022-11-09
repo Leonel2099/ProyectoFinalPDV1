@@ -10,6 +10,7 @@ TagManager:
   - Spike
   - PassLevel
   - Lava
+  - Rehen
   layers:
   - Default
   - TransparentFX
