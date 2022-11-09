@@ -9,7 +9,7 @@ public class VictoryPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Rehen")
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("YouWon");
             //AudioManager.YouWin();
         }
     }
